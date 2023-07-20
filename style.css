@@ -1,0 +1,21 @@
+body {
+    background-color:skyblue;
+}
+
+h1 {
+    text-align:center;
+    text-shadow:-2px 2px white;
+    font-family:cursive;
+    letter-spacing:2px;
+}
+
+p {
+    color:black;
+    font-size: 19px;
+    text-align:center;
+    font-family:Verdana;
+}
+
+h3 {
+    text-align:center;
+}
