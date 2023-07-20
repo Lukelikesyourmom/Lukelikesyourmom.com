@@ -19,3 +19,9 @@ p {
 h3 {
     text-align:center;
 }
+
+img {
+    border:3px;
+    border-radius:3px;
+    border-color:black;
+}
