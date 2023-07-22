@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
     const deviceInfoElement = document.getElementById('device-info');
   
     if (isMobile) {
-      deviceInfoElement.textContent = 'You are using a mobile device.';
+      deviceInfoElement.textContent = 'You are using a mobile device, or an iPad';
     } else {
       deviceInfoElement.textContent = 'You are using a computer.';
     }
