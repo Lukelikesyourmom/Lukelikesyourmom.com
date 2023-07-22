@@ -1,5 +1,8 @@
 body {
-    background-color:skyblue;
+    background-color:#6495ED;
+    margin:0;
+    padding:0;
+   
 }
 
 h1 {
@@ -11,8 +14,6 @@ h1 {
 
 p {
     color:black;
-    font-size: 19px;
-    text-align:center;
     font-family:Verdana;
 }
 
@@ -25,3 +26,80 @@ img {
     border-radius:3px;
     border-color:black;
 }
+
+.vertical-menu {
+    width: 176px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #dc143c; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  .page-content {
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    opacity: 0; /* Initially hide the content */
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* Fade in the content when animation completes */
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .ads {
+    flex: 0 0 300px; /* Set the width of the ad container */
+    padding: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .ads a {
+    display: block; /* Make the entire ad area clickable */
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit text color from parent element */
+  }
+  
+  .ads img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Optional: To style the ad text */
+  .ads p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  
+  
+  
