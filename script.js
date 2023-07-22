@@ -22,3 +22,17 @@ window.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
+
+    // JavaScript code to detect the user's device and modify CSS classes
+    window.addEventListener('DOMContentLoaded', function() {
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+      if (isMobile) {
+        // Add 'mobile-disabled' class to the 'desktop-only' element
+        const desktopOnlyElement = document.querySelector('.desktop-only');
+        if (desktopOnlyElement) {
+          desktopOnlyElement.classList.add('mobile-disabled');
+        }
+      }
+    });
+    
