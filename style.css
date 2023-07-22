@@ -100,6 +100,14 @@ img {
     margin: 10px 0;
   }
   
+  .desktop-only {
+    display: block; /* This content is displayed on desktop by default */
+  }
   
+  @media (max-width: 768px) {
+    .desktop-only {
+      display: none; /* Hide this content on mobile devices */
+    }
+  }
   
   
