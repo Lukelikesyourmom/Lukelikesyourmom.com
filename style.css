@@ -103,11 +103,14 @@ img {
   .desktop-only {
     display: block; /* This content is displayed on desktop by default */
   }
+
+  .mobile-disabled {
+    display: none; /* This content will be hidden on mobile devices */
+  }
   
   @media (max-width: 768px) {
     .desktop-only {
       display: none; /* Hide this content on mobile devices */
     }
   }
-  
   
